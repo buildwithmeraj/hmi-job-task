@@ -1,3 +1,4 @@
+import Hero from "./components/Hero";
 import Logo from "./components/Logo";
 import NavbarCenterItems from "./components/NavbarCenterItems";
 import NavbarEndItems from "./components/NavbarEndItems";
@@ -16,6 +17,9 @@ function App() {
         </div>
         <div className="flex items-center justify-center my-10">
           <TrustedByAvatars />
+        </div>
+        <div>
+          <Hero />
         </div>
       </div>
     </>
