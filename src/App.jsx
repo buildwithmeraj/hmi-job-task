@@ -1,6 +1,7 @@
 import Logo from "./components/Logo";
 import NavbarCenterItems from "./components/NavbarCenterItems";
 import NavbarEndItems from "./components/NavbarEndItems";
+import TrustedByAvatars from "./components/TrustedByAvatars";
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
             <NavbarCenterItems />
           </div>
           <NavbarEndItems />
+        </div>
+        <div className="flex items-center justify-center my-10">
+          <TrustedByAvatars />
         </div>
       </div>
     </>
