@@ -2,6 +2,7 @@ import Hero from "./components/Hero";
 import Logo from "./components/Logo";
 import NavbarCenterItems from "./components/NavbarCenterItems";
 import NavbarEndItems from "./components/NavbarEndItems";
+import PhoneMockup from "./components/PhoneMockup";
 import TrustedByAvatars from "./components/TrustedByAvatars";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <div>
           <Hero />
         </div>
+        <PhoneMockup />
       </div>
     </>
   );
