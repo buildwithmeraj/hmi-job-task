@@ -2,7 +2,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const NavbarCenterItems = () => {
   return (
-    <ul className="flex items-center justify-evenly gap-10">
+    <ul className="flex items-center justify-evenly gap-9 pr-6">
       <li>
         Solutions <IoIosArrowDown className="inline" />
       </li>

@@ -4,8 +4,8 @@ const NavbarEndItems = () => {
   return (
     <div className="flex items-center gap-4">
       <a>Sign in</a>
-      <button className="btn btn-primary rounded-full bg-[#3A4B2B]">
-        Get Drive <FaArrowRight className="inline" />
+      <button className="btn btn-primary rounded-full bg-[#3A4B2B] border-none">
+        Get Olive <FaArrowRight className="inline" />
       </button>
     </div>
   );
